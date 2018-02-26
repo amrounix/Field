@@ -2,6 +2,8 @@
 
 namespace Field\Converter;
 
+use \DateTime;
+use \DateTimeZone;
 
 abstract class Converter {
 	protected static $_SQL="VARCHAR({max})";
