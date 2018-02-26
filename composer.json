@@ -1,0 +1,34 @@
+{
+	"name" : "amrounix/field",
+	"type" : "library",
+	"description" : "Field",
+	"keywords" : [
+		"form",
+		"field",
+		"validation",
+		"geolocation"
+	],
+	"license" : "Apache-2.0",
+	"authors" : [{
+			"name" : "Amroune selim",
+			"email" : "amrounix+git@gmail.com",
+			"homepage" : "https://amroune.net/"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"amrounix\\" : "src/"
+		}
+	},
+	"archive" : {
+		"exclude" : [
+			"tests/",
+			"build/",
+			"/build.xml",
+			"phpunit.xml.dist"
+		]
+	},
+	"require" : {
+		"php" : ">=5.3.2"
+	}
+}
