@@ -1,6 +1,7 @@
 <?php
 namespace Amrounix;
 
+require __DIR__.'/Converter/Converter.php';
 
 use Amrounix\Converter\AddressConverter;
 use Amrounix\Converter\AmountConverter;
